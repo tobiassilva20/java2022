@@ -3,7 +3,6 @@ package aula13;
 // Neste aula foi ensinado sobre os principais tipos de operadores do Java e como usá-los
 
 import java.util.Scanner;
-
 /*
  * Operadores aritiméticos + - / *
  * Operadores relacionais < > <= >=
@@ -24,6 +23,5 @@ public class OperadoresAritimeticos {
         System.out.println("A diferença e igual a: " + (numero1 - numero2));
         System.out.println("O produto e igual a: " + (numero1 * numero2));
         System.out.println("A divisao e igual a: " + (numero1 / numero2));
-
     }
 }
