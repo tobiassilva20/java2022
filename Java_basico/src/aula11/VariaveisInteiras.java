@@ -16,8 +16,8 @@ public class VariaveisInteiras {
         long numero_long = 255555555;
 
         System.out.println(numero_byte + " byte");
-        System.out.println(numero_short + "short");
-        System.out.println(numero_int + "inteiro");
-        System.out.println(numero_long + "long");
+        System.out.println(numero_short + " short");
+        System.out.println(numero_int + " inteiro");
+        System.out.println(numero_long + " long");
     }
 }
