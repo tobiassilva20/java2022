@@ -12,6 +12,5 @@ public class ForEach {
         for (int nota: notas) {
             System.out.println(nota);
         }
-
     }
 }
