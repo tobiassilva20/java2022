@@ -1,7 +1,9 @@
 package aula24;
 
+// Classe que realiza o teste da Classe Carro.
 public class TesteCarro {
     public static void main(String[] args) {
+
         Carro carro1 = new Carro();
         carro1.marca = "Fiat";
         carro1.modelo = "Ducato";
