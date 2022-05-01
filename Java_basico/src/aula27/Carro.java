@@ -1,6 +1,6 @@
 package aula27;
 
-// Nesta aula foram mostrados exemplos de metodos com retorno.
+// Nesta aula foram mostrados exemplos de metodos que recebem parametros.
 public class Carro {
     String marca;
     String modelo;
