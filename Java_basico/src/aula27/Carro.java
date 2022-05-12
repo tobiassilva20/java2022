@@ -6,7 +6,7 @@ public class Carro {
     String modelo;
     int numPassageiros;
     double capCombustivel;
-    double consumoCombustivel;
+    public double consumoCombustivel;
 
     public double calcularCombustivel(int km){
         return km/consumoCombustivel;
