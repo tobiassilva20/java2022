@@ -2,6 +2,7 @@ package aula33;
 
 public class Calculadora {
     // A sobrecarga de métodos é utilizada reescrevendo o método com tipos e/ ou quantidade de paramentros diferentes.
+    // Também é possível realizar a sobrecarga de métodos construtores.
     public int soma(int num1, int num2){
         return num1 + num2;
     }

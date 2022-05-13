@@ -11,9 +11,13 @@ public class Sobrecarga {
 
         int[] inteiros = new int[4];
         inteiros[0] = 33;
-        inteiros[1] = 33;
-        inteiros[2] = 33;
-        inteiros[3] = 33;
+        inteiros[1] = 34;
+        inteiros[2] = 35;
+        inteiros[3] = 36;
+
+        for (int i=0, size = inteiros.length; i < size; i++){
+            System.out.println(inteiros[i]);
+        }
         System.out.println(calculadora.soma(inteiros));
     }
 
