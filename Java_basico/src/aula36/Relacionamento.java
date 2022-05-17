@@ -16,7 +16,7 @@ public class Relacionamento {
         contato.setNome("Tyrion");
         contato.setEndereco(endereco);
 
-        Telefone[] telefones = new Telefone[3];
+        Telefone[] telefones = new Telefone[2];
 
         Telefone tel = new Telefone();
         tel.setTipo("Celular");
@@ -41,8 +41,7 @@ public class Relacionamento {
         }
         if(contato.getTelefones() != null){
             for (Telefone telefone: contato.getTelefones()) {
-                if(telefone != null)
-                    System.out.println("Tel: " + telefone.getDdd() + " " + telefone.getNumero());
+                System.out.println("Tel: " + telefone.getDdd() + " " + telefone.getNumero());
             }
         }
     }
