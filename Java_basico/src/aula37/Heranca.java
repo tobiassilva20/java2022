@@ -16,5 +16,7 @@ public class Heranca {
         professor.setEndereco("Los Angeles");
         professor.setTelefone("9899988889");
 
+        System.out.println(professor.getTelefone());
+        System.out.println(aluno1.getNome());
     }
 }
