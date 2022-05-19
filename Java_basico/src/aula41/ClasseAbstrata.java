@@ -9,7 +9,7 @@ public class ClasseAbstrata {
         Usuario aluno = new Aluno("Bar", "00222");
         Usuario professor = new Professor("Bar Foo", "444");
 
-        //usuario.setEndereco("Rio");
+        //usuario.setEndereco("Rio"); uma vez que a classe Usuario é abstrata, esse objeto torna-se inválido.
         aluno.setEndereco("Sp");
         professor.setEndereco("MG");
     }
