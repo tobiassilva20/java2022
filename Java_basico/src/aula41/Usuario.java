@@ -1,7 +1,8 @@
-package aula40;
+package aula41;
 
-// Esta classe contem métodos e atributos comuns que deverão ser herdados pelas subclasses
-public class Usuario {
+// Com o uso da palavra chave abstract, a classe se torna abstrata, ou seja, não pode ser instanciada diretamente mas a
+//apenas suas subclasses podem.
+public abstract class Usuario {
     private String nome;
     private String endereco;
     private String telefone;
@@ -44,7 +45,7 @@ public class Usuario {
         this.cpf = cpf;
     }
 
-    public String gerarEtiquetaDeEndereço(){
-        return "Endereço padrão: " + endereco;
-    }
+    public abstract String gerarEtiquetaDeEndereço();
+
+    public abstract void exemploDeMetodoAbstrato();
 }

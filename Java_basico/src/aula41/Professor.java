@@ -1,4 +1,4 @@
-package aula40;
+package aula41;
 
 public class Professor extends Usuario {
     private double salario;
@@ -33,4 +33,7 @@ public class Professor extends Usuario {
     public String gerarEtiquetaDeEndereço(){
         return "Endereço do Professor: " + super.getEndereco();
     }
+
+    @Override
+    public void exemploDeMetodoAbstrato() {}
 }

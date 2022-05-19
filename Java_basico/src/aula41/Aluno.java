@@ -1,4 +1,4 @@
-package aula40;
+package aula41;
 
 // Para fazer uso da herança no Java utiliza-se a palavra reservada extends.
 public class Aluno extends Usuario {
@@ -39,4 +39,8 @@ public class Aluno extends Usuario {
     public String gerarEtiquetaDeEndereço() {
         return "Endereço do Aluno: " + super.getEndereco();
     }
+
+
+    @Override
+    public void exemploDeMetodoAbstrato() {}
 }
