@@ -1,0 +1,14 @@
+Esta aula trouxe a teoria sobre erros e exceptions.
+
+A principal diferença entre erros e exceptions é:
+
+Erros não podem ser tratados e acabam com a execução do programa.
+Exceptions são erros tratáveis que não encerram a execução do programa.
+
+A classe Throwable é a classe mãe de de todas as Exceptions que se dividem em dois tipos:
+Verificadas e não verificadas.
+
+Verificadas: IOExceptions, SQLExceptions
+
+Não Verificadas que só podem ser verificadas em tempo de execução:
+RuntimeException -> ArrayIndexOutOfBoundException, NullPointer, Arithmetic, ClassCastException.
