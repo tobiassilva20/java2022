@@ -22,11 +22,11 @@ public class TesteDoFinally {
             }
 
             // Outra forma possível de realizar tratamento de múltiplos erros.
-//            try {
+/*            try {
 //                System.out.println(numeros[i] + "/" + denominadores[i] + "=" + (numeros[i]/denominadores[i]));
 //            } catch (ArithmeticException | ArrayIndexOutOfBoundsException exception){
 //                System.out.println("Houve um erro ao realizar a operação!");
-//            }
+            }*/
         }
     }
 }
